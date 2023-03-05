@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls {
+    margin-top: -5px;
+    background-color: rgb(24, 160, 80);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.controls img {
+    width: 40px;
+}
+.play {
+    cursor: pointer;
+}
+.stop {
+    cursor: pointer;
+}
+
+.time {
+    margin-left: auto;
+}
+.timing {
+    width: 400px;
+}
